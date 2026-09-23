@@ -1,6 +1,6 @@
-# Tremenburguer
+# Tremenburger
 
-A static Astro landing page for Tremenburguer, adapted from the supplied café reference. The page includes a responsive layout, menu filters, product detail dialogs, and a swipeable food gallery.
+A static Astro landing page for Tremenburger, adapted from the supplied café reference. The page includes a responsive layout, menu filters, product detail dialogs, and a swipeable food gallery.
 
 ## Local development
 
