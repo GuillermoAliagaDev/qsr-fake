@@ -1,19 +1,19 @@
 ---
 const products = [
-  { id: 'burger', category: 'burgers', name: 'The Tremendo', eyebrow: 'THE SIGNATURE', price: '$12.90', image: '/images/burger.webp', alt: 'Double cheeseburger with lettuce and tomato', description: 'Double smashed beef, melted cheddar, crisp lettuce, tomato, pickles, and our house sauce.' },
-  { id: 'fries', category: 'sides', name: 'Golden Fries', eyebrow: 'THE SIDEKICK', price: '$4.90', image: '/images/fries.webp', alt: 'Golden fries in a red carton', description: 'Hot, golden, and made for dipping. Add them to any burger.' },
-  { id: 'cola', category: 'drinks', name: 'Ice Cold Cola', eyebrow: 'THE REFRESHER', price: '$3.50', image: '/images/cola.webp', alt: 'Iced cola in a takeaway cup', description: 'Fizzy cola poured over ice, the perfect finish to a big bite.' },
+  { id: 'burger', category: 'burgers', name: 'La Tremenda', eyebrow: 'LA ESPECIALIDAD', price: '$12.90', image: '/images/burger.webp', alt: 'Hamburguesa doble con queso, lechuga y tomate', description: 'Doble carne a la plancha, cheddar derretido, lechuga fresca, tomate, pepinillos y nuestra salsa de la casa.' },
+  { id: 'fries', category: 'sides', name: 'Papas doradas', eyebrow: 'EL ACOMPAÑANTE', price: '$4.90', image: '/images/fries.webp', alt: 'Papas fritas doradas en un envase rojo', description: 'Calientes, doradas y perfectas para mojar en salsa. Acompañan cualquier hamburguesa.' },
+  { id: 'cola', category: 'drinks', name: 'Cola bien fría', eyebrow: 'LA REFRESCANTE', price: '$3.50', image: '/images/cola.webp', alt: 'Cola con hielo en un vaso para llevar', description: 'Cola con burbujas y mucho hielo: el final perfecto para una gran comida.' },
 ];
 ---
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#ff2b11" />
-    <meta name="description" content="Tremenburger serves big burgers, golden fries, and ice-cold drinks. See what's cooking." />
+    <meta name="description" content="En Tremenburger encontrarás hamburguesas grandes, papas doradas y bebidas bien frías. Descubre nuestro menú." />
     <link rel="icon" type="image/png" href="/logo-icon.png" />
-    <title>Tremenburger — Big flavor. Good times.</title>
+    <title>Tremenburger — Mucho sabor. Buenos momentos.</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
@@ -21,16 +21,16 @@ const products = [
   <body>
     <div id="top" aria-hidden="true"></div>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Tremenburger home"><img class="brand-image" src="/logo.png" alt="" width="900" height="171" /></a>
-      <nav class="desktop-nav" aria-label="Main navigation">
-        <a href="#about">Our story</a><a href="#menu">Menu</a><a href="#experience">The experience</a><a href="#visit">Visit</a>
+      <a class="brand" href="#top" aria-label="Inicio de Tremenburger"><img class="brand-image" src="/logo.png" alt="" width="900" height="171" /></a>
+      <nav class="desktop-nav" aria-label="Navegación principal">
+        <a href="#about">Nuestra historia</a><a href="#menu">Menú</a><a href="#experience">La experiencia</a><a href="#visit">Visítanos</a>
       </nav>
-      <a class="header-cta" href="#menu">Explore menu <span aria-hidden="true">↗</span></a>
-      <button class="menu-toggle" type="button" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false"><span></span><span></span></button>
+      <a class="header-cta" href="#menu">Ver el menú <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-controls="mobile-menu" aria-expanded="false"><span></span><span></span></button>
     </header>
 
-    <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" inert>
-      <a href="#about">Our story</a><a href="#menu">Menu</a><a href="#experience">The experience</a><a href="#visit">Visit</a>
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Navegación móvil" inert>
+      <a href="#about">Nuestra historia</a><a href="#menu">Menú</a><a href="#experience">La experiencia</a><a href="#visit">Visítanos</a>
     </nav>
     <div class="menu-backdrop" aria-hidden="true"></div>
 
@@ -38,40 +38,40 @@ const products = [
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-glow"></div>
         <div class="hero-inner">
-          <p class="eyebrow light"><span class="asterisk">✳</span> MADE FOR THE BIG CRAVING</p>
-          <h1 id="hero-title">A NEW ERA<br />OF <em>BURGERS.</em></h1>
-          <p class="hero-copy">Big flavor, good times, and the kind of bite you think about long after the last fry.</p>
-          <div class="hero-actions"><a class="button button-cream" href="#menu">EXPLORE THE MENU <span aria-hidden="true">↗</span></a><a class="text-link" href="#about">Get to know us <span aria-hidden="true">↘</span></a></div>
-          <div class="hero-image-wrap"><div class="hero-image-halo"></div><img class="hero-burger" src="/images/burger.webp" alt="Juicy Tremenburger double cheeseburger" fetchpriority="high" /><span class="hero-sticker">100%<br /><small>GOOD VIBES</small></span></div>
-          <div class="hero-bottom"><span>BURGERS / FRIES / GOOD TIMES</span><span>SCROLL TO DISCOVER ↓</span></div>
+          <p class="eyebrow light"><span class="asterisk">✳</span> HECHO PARA GRANDES ANTOJOS</p>
+          <h1 id="hero-title">UNA NUEVA ERA<br />DE <em>HAMBURGUESAS.</em></h1>
+          <p class="hero-copy">Mucho sabor, buenos momentos y una hamburguesa que recordarás hasta después de la última papa.</p>
+          <div class="hero-actions"><a class="button button-cream" href="#menu">EXPLORA EL MENÚ <span aria-hidden="true">↗</span></a><a class="text-link" href="#about">Conócenos <span aria-hidden="true">↘</span></a></div>
+          <div class="hero-image-wrap"><div class="hero-image-halo"></div><img class="hero-burger" src="/images/burger.webp" alt="Jugosa hamburguesa doble con queso de Tremenburger" fetchpriority="high" /><span class="hero-sticker">100%<br /><small>BUENA ONDA</small></span></div>
+          <div class="hero-bottom"><span>HAMBURGUESAS / PAPAS / BUENOS MOMENTOS</span><span>DESLIZA PARA DESCUBRIR ↓</span></div>
         </div>
       </section>
 
-      <div class="ticker" aria-label="Fresh burgers, golden fries, ice cold drinks"><div>FRESH BURGERS <b>✳</b> GOLDEN FRIES <b>✳</b> ICE COLD DRINKS <b>✳</b> BIG FLAVOR <b>✳</b> FRESH BURGERS <b>✳</b> GOLDEN FRIES <b>✳</b></div></div>
+      <div class="ticker" aria-label="Hamburguesas frescas, papas doradas y bebidas bien frías"><div>HAMBURGUESAS FRESCAS <b>✳</b> PAPAS DORADAS <b>✳</b> BEBIDAS BIEN FRÍAS <b>✳</b> MUCHO SABOR <b>✳</b> HAMBURGUESAS FRESCAS <b>✳</b> PAPAS DORADAS <b>✳</b></div></div>
 
       <section class="about section" id="about">
-        <div class="section-heading"><p class="eyebrow">01 / WELCOME TO TREMENBURGER</p><h2>Good food.<br /><span>Great company.</span></h2></div>
-        <div class="about-content"><p class="lead">Some things are better together. A burger worth holding with both hands. Fries worth sharing. A cold drink to wash it all down.</p><p>We bring the good stuff together with fresh ingredients, bold flavors, and a whole lot of love. Pull up a chair. Your next favorite bite is here.</p><a class="round-link" href="#menu" aria-label="See our menu">↗</a></div>
-        <div class="about-visual"><div class="about-card"><span class="small-label">THE PERFECT COMBO</span><img src="/images/fries.webp" alt="Golden French fries" loading="lazy" /><strong>MORE<br />PLEASE.</strong></div><div class="about-card orange"><span class="small-label">SERVED WITH A SMILE</span><img src="/images/cola.webp" alt="Cold cola with ice" loading="lazy" /><strong>GOOD<br />TIMES.</strong></div></div>
+        <div class="section-heading"><p class="eyebrow">01 / BIENVENIDOS A TREMENBURGER</p><h2>Buena comida.<br /><span>Mejor compañía.</span></h2></div>
+        <div class="about-content"><p class="lead">Hay cosas que saben mejor juntas: una hamburguesa para agarrar con ambas manos, papas para compartir y una bebida fría para acompañar.</p><p>Unimos ingredientes frescos, sabores intensos y mucho cariño. Toma asiento: aquí está tu próximo bocado favorito.</p><a class="round-link" href="#menu" aria-label="Ver nuestro menú">↗</a></div>
+        <div class="about-visual"><div class="about-card"><span class="small-label">LA COMBINACIÓN PERFECTA</span><img src="/images/fries.webp" alt="Papas fritas doradas" loading="lazy" /><strong>QUIERO<br />MÁS.</strong></div><div class="about-card orange"><span class="small-label">SERVIDO CON UNA SONRISA</span><img src="/images/cola.webp" alt="Cola fría con hielo" loading="lazy" /><strong>BUENOS<br />MOMENTOS.</strong></div></div>
       </section>
 
-      <section class="approach section" id="experience"><div class="approach-copy"><p class="eyebrow light">02 / OUR APPROACH</p><h2>ALL THE<br /><em>GOOD STUFF.</em></h2><p>It starts with a crave-worthy burger. Add a side of golden fries, a drink on ice, and the people you love eating with. That’s the Tremenburger way.</p><a class="button button-outline" href="#menu">FIND YOUR FAVORITE <span aria-hidden="true">↗</span></a></div><div class="approach-visual"><div class="approach-ring"><span>MADE TO CRAVE · MADE TO CRAVE · </span></div><img src="/images/burger.webp" alt="Tremenburger burger" loading="lazy" /></div></section>
+      <section class="approach section" id="experience"><div class="approach-copy"><p class="eyebrow light">02 / NUESTRA ESENCIA</p><h2>TODO LO<br /><em>BUENO.</em></h2><p>Todo empieza con una hamburguesa irresistible. Súmale papas doradas, una bebida con hielo y tus personas favoritas. Así se vive Tremenburger.</p><a class="button button-outline" href="#menu">ELIGE TU FAVORITA <span aria-hidden="true">↗</span></a></div><div class="approach-visual"><div class="approach-ring"><span>HECHO PARA ANTOJARSE · HECHO PARA ANTOJARSE · </span></div><img src="/images/burger.webp" alt="Hamburguesa de Tremenburger" loading="lazy" /></div></section>
 
-      <section class="menu-section section" id="menu"><div class="menu-intro"><p class="eyebrow">03 / THE MENU</p><h2>Pick your<br /><span>happy place.</span></h2><p>Go all in on a burger, grab the perfect side, and keep things cool with a drink.</p></div>
-        <div class="filters" role="group" aria-label="Filter menu"><button type="button" class="filter active" data-filter="all" aria-pressed="true">ALL GOOD STUFF</button><button type="button" class="filter" data-filter="burgers" aria-pressed="false">BURGERS</button><button type="button" class="filter" data-filter="sides" aria-pressed="false">SIDES</button><button type="button" class="filter" data-filter="drinks" aria-pressed="false">DRINKS</button></div>
-        <div class="product-grid">{products.map((product) => <button class="product-card" type="button" data-category={product.category} data-id={product.id} aria-label={`View ${product.name} details`}><div class="product-photo"><img src={product.image} alt={product.alt} loading="lazy" /><span class="product-plus" aria-hidden="true">↗</span></div><div class="product-meta"><span>{product.eyebrow}</span><span>{product.price}</span></div><h3>{product.name}</h3><p>{product.description}</p></button>)}</div>
-        <p class="menu-note">Menu and prices shown are sample content.</p>
+      <section class="menu-section section" id="menu"><div class="menu-intro"><p class="eyebrow">03 / EL MENÚ</p><h2>Elige tu<br /><span>momento feliz.</span></h2><p>Disfruta una hamburguesa, acompáñala con papas y refréscate con una bebida.</p></div>
+        <div class="filters" role="group" aria-label="Filtrar menú"><button type="button" class="filter active" data-filter="all" aria-pressed="true">TODO</button><button type="button" class="filter" data-filter="burgers" aria-pressed="false">HAMBURGUESAS</button><button type="button" class="filter" data-filter="sides" aria-pressed="false">ACOMPAÑAMIENTOS</button><button type="button" class="filter" data-filter="drinks" aria-pressed="false">BEBIDAS</button></div>
+        <div class="product-grid">{products.map((product) => <button class="product-card" type="button" data-category={product.category} data-id={product.id} aria-label={`Ver detalles de ${product.name}`}><div class="product-photo"><img src={product.image} alt={product.alt} loading="lazy" /><span class="product-plus" aria-hidden="true">↗</span></div><div class="product-meta"><span>{product.eyebrow}</span><span>{product.price}</span></div><h3>{product.name}</h3><p>{product.description}</p></button>)}</div>
+        <p class="menu-note">El menú y los precios son de ejemplo.</p>
       </section>
 
-      <section class="gallery-section section"><div class="gallery-heading"><p class="eyebrow light">04 / THE CRAVING</p><h2>LOOKS GOOD.<br /><em>TASTES BETTER.</em></h2><p>Tap through the essentials that make every visit a good one.</p></div><div class="gallery-stage"><button class="gallery-arrow prev" type="button" aria-label="Previous image">←</button><div class="gallery-image"><img id="gallery-photo" src="/images/burger.webp" alt="Double cheeseburger" loading="lazy" /></div><button class="gallery-arrow next" type="button" aria-label="Next image">→</button><div class="gallery-caption"><span id="gallery-number">01 / 03</span><strong id="gallery-title">THE BIG BITE</strong></div></div><div class="gallery-thumbs" role="group" aria-label="Choose gallery image"><button type="button" class="thumb active" data-slide="0" aria-label="Show burger image" aria-pressed="true"><img src="/images/burger.webp" alt="" /></button><button type="button" class="thumb" data-slide="1" aria-label="Show fries image" aria-pressed="false"><img src="/images/fries.webp" alt="" /></button><button type="button" class="thumb" data-slide="2" aria-label="Show cola image" aria-pressed="false"><img src="/images/cola.webp" alt="" /></button></div></section>
+      <section class="gallery-section section"><div class="gallery-heading"><p class="eyebrow light">04 / EL ANTOJO</p><h2>SE VE BIEN.<br /><em>SABE MEJOR.</em></h2><p>Desliza para descubrir los favoritos de cada visita.</p></div><div class="gallery-stage"><button class="gallery-arrow prev" type="button" aria-label="Imagen anterior">←</button><div class="gallery-image"><img id="gallery-photo" src="/images/burger.webp" alt="Hamburguesa doble con queso" loading="lazy" /></div><button class="gallery-arrow next" type="button" aria-label="Imagen siguiente">→</button><div class="gallery-caption"><span id="gallery-number">01 / 03</span><strong id="gallery-title">EL GRAN BOCADO</strong></div></div><div class="gallery-thumbs" role="group" aria-label="Elegir imagen de la galería"><button type="button" class="thumb active" data-slide="0" aria-label="Mostrar imagen de la hamburguesa" aria-pressed="true"><img src="/images/burger.webp" alt="" /></button><button type="button" class="thumb" data-slide="1" aria-label="Mostrar imagen de las papas fritas" aria-pressed="false"><img src="/images/fries.webp" alt="" /></button><button type="button" class="thumb" data-slide="2" aria-label="Mostrar imagen de la cola" aria-pressed="false"><img src="/images/cola.webp" alt="" /></button></div></section>
 
-      <section class="details section"><div><p class="eyebrow">05 / WHY WE DO IT</p><h2>Little things.<br /><span>Big feelings.</span></h2></div><div class="detail-list"><article><span>01</span><div><h3>Big on flavor</h3><p>Every layer has a reason to be there. Especially the cheese.</p></div><b>↗</b></article><article><span>02</span><div><h3>Always a good time</h3><p>Quick lunch, late craving, or a table full of friends: you belong here.</p></div><b>↗</b></article><article><span>03</span><div><h3>Made to share</h3><p>Bring your people. We’ll handle the burgers, fries, and smiles.</p></div><b>↗</b></article></div></section>
+      <section class="details section"><div><p class="eyebrow">05 / POR QUÉ LO HACEMOS</p><h2>Pequeños detalles.<br /><span>Grandes momentos.</span></h2></div><div class="detail-list"><article><span>01</span><div><h3>Mucho sabor</h3><p>Cada ingrediente tiene su lugar. Especialmente el queso.</p></div><b>↗</b></article><article><span>02</span><div><h3>Siempre es un buen momento</h3><p>Un almuerzo rápido, un antojo nocturno o una mesa llena de amigos: aquí siempre hay lugar para ti.</p></div><b>↗</b></article><article><span>03</span><div><h3>Para compartir</h3><p>Trae a tu gente. Nosotros ponemos las hamburguesas, las papas y las sonrisas.</p></div><b>↗</b></article></div></section>
 
-      <section class="visit section" id="visit"><div class="visit-main"><p class="eyebrow light">06 / COME HUNGRY</p><h2>LET’S EAT<br /><em>TOGETHER.</em></h2><p>Great burgers taste even better with good company. Find your favorite on the menu and make today a burger day.</p><a class="button button-cream" href="#menu">EXPLORE THE MENU <span aria-hidden="true">↗</span></a></div><img src="/images/fries.webp" alt="French fries" loading="lazy" /></section>
+      <section class="visit section" id="visit"><div class="visit-main"><p class="eyebrow light">06 / VEN CON HAMBRE</p><h2>COMAMOS<br /><em>JUNTOS.</em></h2><p>Las mejores hamburguesas saben aún mejor en buena compañía. Encuentra tu favorita y haz que hoy sea día de hamburguesas.</p><a class="button button-cream" href="#menu">EXPLORA EL MENÚ <span aria-hidden="true">↗</span></a></div><img src="/images/fries.webp" alt="Papas fritas" loading="lazy" /></section>
     </main>
-    <footer><div class="footer-top"><a class="brand" href="#top" aria-label="Tremenburger home"><img class="brand-image" src="/logo.png" alt="" width="900" height="171" /></a><p>BIG FLAVOR. GOOD TIMES.</p></div><div class="footer-bottom"><span>© {new Date().getFullYear()} Tremenburger</span><nav aria-label="Footer navigation"><a href="#about">Story</a><a href="#menu">Menu</a><a href="#experience">Experience</a><a href="#visit">Visit</a></nav><a href="#top">BACK TO TOP ↑</a></div></footer>
+    <footer><div class="footer-top"><a class="brand" href="#top" aria-label="Inicio de Tremenburger"><img class="brand-image" src="/logo.png" alt="" width="900" height="171" /></a><p>MUCHO SABOR. BUENOS MOMENTOS.</p></div><div class="footer-bottom"><span>© {new Date().getFullYear()} Tremenburger</span><nav aria-label="Navegación del pie de página"><a href="#about">Historia</a><a href="#menu">Menú</a><a href="#experience">Experiencia</a><a href="#visit">Visítanos</a></nav><a href="#top">VOLVER ARRIBA ↑</a></div></footer>
 
-    <dialog id="product-dialog" aria-labelledby="dialog-title"><button class="dialog-close" type="button" aria-label="Close product details">×</button><div class="dialog-photo"><img id="dialog-image" src="" alt="" /></div><div class="dialog-copy"><p class="eyebrow" id="dialog-eyebrow"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p><strong id="dialog-price"></strong></div></dialog>
+    <dialog id="product-dialog" aria-labelledby="dialog-title"><button class="dialog-close" type="button" aria-label="Cerrar detalles del producto">×</button><div class="dialog-photo"><img id="dialog-image" src="" alt="" /></div><div class="dialog-copy"><p class="eyebrow" id="dialog-eyebrow"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p><strong id="dialog-price"></strong></div></dialog>
 
     <script define:vars={{ products }}>
       const menuButton = document.querySelector('.menu-toggle');
@@ -79,7 +79,7 @@ const products = [
       const menuBackdrop = document.querySelector('.menu-backdrop');
       function setMenuOpen(open) {
         menuButton.setAttribute('aria-expanded', String(open));
-        menuButton.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+        menuButton.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
         mobileMenu.classList.toggle('open', open);
         mobileMenu.inert = !open;
         menuBackdrop.classList.toggle('open', open);
@@ -96,7 +96,7 @@ const products = [
       document.querySelectorAll('.product-card').forEach(card => card.addEventListener('click', () => { const product = products.find(item => item.id === card.dataset.id); dialog.querySelector('#dialog-image').src = product.image; dialog.querySelector('#dialog-image').alt = product.alt; dialog.querySelector('#dialog-eyebrow').textContent = product.eyebrow; dialog.querySelector('#dialog-title').textContent = product.name; dialog.querySelector('#dialog-description').textContent = product.description; dialog.querySelector('#dialog-price').textContent = product.price; dialog.showModal(); }));
       dialog.querySelector('.dialog-close').addEventListener('click', () => dialog.close());
       dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
-      const slides = [{ image:'/images/burger.webp', alt:'Double cheeseburger', title:'THE BIG BITE' }, { image:'/images/fries.webp', alt:'Golden French fries', title:'THE PERFECT SIDE' }, { image:'/images/cola.webp', alt:'Ice cold cola', title:'THE COOL FINISH' }];
+      const slides = [{ image:'/images/burger.webp', alt:'Hamburguesa doble con queso', title:'EL GRAN BOCADO' }, { image:'/images/fries.webp', alt:'Papas fritas doradas', title:'EL ACOMPAÑANTE PERFECTO' }, { image:'/images/cola.webp', alt:'Cola bien fría', title:'EL FINAL REFRESCANTE' }];
       let currentSlide = 0;
       function showSlide(index) { currentSlide = (index + slides.length) % slides.length; const slide = slides[currentSlide]; const photo = document.querySelector('#gallery-photo'); photo.src = slide.image; photo.alt = slide.alt; document.querySelector('#gallery-number').textContent = `0${currentSlide + 1} / 0${slides.length}`; document.querySelector('#gallery-title').textContent = slide.title; document.querySelectorAll('.thumb').forEach((thumb, i) => { thumb.classList.toggle('active', i === currentSlide); thumb.setAttribute('aria-pressed', String(i === currentSlide)); }); }
       document.querySelector('.gallery-arrow.prev').addEventListener('click', () => showSlide(currentSlide - 1));
@@ -341,6 +341,7 @@ const products = [
   }
   main section[id]{scroll-margin-top:76px}
   @media(max-width:900px){main section[id]{scroll-margin-top:66px}}
+  @media(max-width:600px){.hero h1{font-size:clamp(38px,10.8vw,54px)}}
   :is(.header-cta,.button,.menu-toggle,.filter,.round-link,.gallery-arrow,.product-plus,.thumb,.dialog-close):focus-visible{
     outline:3px solid #ffbd55;
     outline-offset:3px;
